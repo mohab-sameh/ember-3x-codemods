@@ -10,7 +10,17 @@
 
 A [jscodeshift](https://github.com/facebook/jscodeshift) Codemod with a collection of transforms to address the list of [deprecations](https://deprecations.emberjs.com/v3.x) introduced to Ember during the 3.x cycle
 
-To run a specific codemod from this project, you would run the following:
+## Usage
+To run a specific codemod from this project, you can:
+
+Easily run the codemod on your project using the [Intuita VS Code extension](https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension):
+
+<a href="https://tinyurl.com/ember-codemods" target="_blank"> ![Open in Intuita](https://raw.githubusercontent.com/intuita-inc/intuita-docs/master/static/img/intuita-badge.svg) </a>
+
+> To learn more about using the extension, [read the docs here](https://docs.intuita.io/docs/vs-code-extension/quickstart). If you encounter any issues, please [let us know.](https://www.intuita.io/community)
+
+
+Alternatively, you can run the codemod with jscodeshift CLI:
 
 ```
 npx ember-3x-codemods <TRANSFORM NAME> path/of/files/ or/some**/*glob.js
